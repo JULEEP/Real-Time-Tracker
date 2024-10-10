@@ -1,0 +1,19 @@
+{
+  "name": "realtime-tracker",
+  "version": "1.0.0",
+  "description": "This backend project focuses on real-time device tracking using Node.js and Express for the server-side logic, and Socket.io for real-time communication.\r The project leverages Leaflet, a popular JavaScript library, to display interactive maps.\r The aim is to provide a dynamic and responsive application that can track and visualize device locations in real-time on a map interface.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.0"
+  }
+}
